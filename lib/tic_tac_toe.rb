@@ -90,9 +90,7 @@ class TicTacToe
   
   #over? returns true if the board was been won or is full(is a draw)
   def over?
-    if draw? || won?
-      true
-    end
+    draw? || won? ? true : false
   end
   
   # #winner returns token "X" or "O" that has won the game when given a winning board
