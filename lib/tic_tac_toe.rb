@@ -124,7 +124,7 @@ class TicTacToe
   
   #play method runs the game loop:
   def play
-    while !over?
+    until over?
       turn
     end
   
