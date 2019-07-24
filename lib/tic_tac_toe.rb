@@ -105,6 +105,11 @@ class TicTacToe
   #     end
   #   end
   # end
+  def winner
+    if won? != false
+      board[won?[0]]
+    end
+  end
   
   
   #defines the routine of a complete turn in the game
