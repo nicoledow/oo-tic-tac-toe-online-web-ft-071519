@@ -106,7 +106,7 @@ class TicTacToe
   #   end
   # end
   def winner
-    if won? != false
+    if won?
       board[won?[0]]
     end
   end
