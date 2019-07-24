@@ -133,7 +133,8 @@ class TicTacToe
       display_board
     else
       puts "Please input a valid space (1-9)."
-      user_input = gets.strip
+      #user_input = gets.strip
+      turn
     end
   end
   
