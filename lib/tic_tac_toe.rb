@@ -72,7 +72,7 @@ class TicTacToe
       if @board[combo[0]] == @board[combo[1]] && @board[combo[1]] == @board[combo[2]]
         combo
       else
-        false
+        nil
       end
     end
   end
