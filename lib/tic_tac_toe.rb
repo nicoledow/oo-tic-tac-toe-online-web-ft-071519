@@ -96,10 +96,8 @@ class TicTacToe
   
   #over? returns true if the board was been won or is full(is a draw)
   def over?
-    if draw? || won?
+    if draw? || won? || full?
       true
-    elsif !full?
-      false
     end
   end
   
