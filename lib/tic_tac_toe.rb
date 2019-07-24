@@ -63,11 +63,7 @@ class TicTacToe
   
   #uses the turn_count method to determine if it's X's or O's turn 
   def current_player
-    if turn_count.even?
-      "X"
-    else
-      "O"
-    end
+    turn_count.even? ? "X" : "O"
   end
   
   #won? returns false or nil if there is no win combination present, and returns the winning combination indices if there is a win
