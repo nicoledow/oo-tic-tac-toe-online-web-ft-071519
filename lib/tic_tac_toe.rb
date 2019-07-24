@@ -69,8 +69,7 @@ class TicTacToe
   #won? returns false or nil if there is no win combination present, and returns the winning combination indices if there is a win
   def won?
     WIN_COMBINATIONS.detect do |combo|
-      if ((@board[combo[0]] == @board[combo[1]]) && (@board[combo[1]] == @board[combo[2]]) && (@board[combo[2]] == @board[combo[0]]))
-          combo
+      if ((@board[combo[0]] == @board[combo[1]]) && (@board[combo[1]] == @board[combo[2]]))
       else
         false
       end
