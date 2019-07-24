@@ -123,27 +123,18 @@ class TicTacToe
   end
   
   #play method runs the game loop:
-  # def play
-  #   while !over?
-  #     turn
-  #   end
-  
-  #   if won? 
-  #       puts "Congratulations #{winner}!"
-  #   elsif draw?
-  #     puts "Cat's Game!"
-  #   end
-  # end
-def play
-    until over?
+  def play
+    while !over?
       turn
     end
-    if won?
-      puts "Congratulations #{winner}!"
-      elsif draw?
+  
+    if won? 
+        puts "Congratulations #{winner}!"
+    elsif draw?
       puts "Cat's Game!"
     end
   end
+
 
 
 end
