@@ -93,7 +93,7 @@ class TicTacToe
     draw? || won? ? true : false
   end
   
-  # #winner returns token "X" or "O" that has won the game when given a winning board
+  #winner returns token "X" or "O" that has won the game when given a winning board
   def winner
     won? ? board[won?[0]] : nil
   end
